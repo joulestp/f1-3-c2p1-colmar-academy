@@ -1,0 +1,625 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16
+}
+
+.header {
+  background-color: white;
+  height: 64px;
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.header .logo {
+  display: flex;
+  align-items: left;
+  line-height: 32px;
+  color: black;
+  font-weight: bold;
+  margin: 16px;
+  margin-right: 100px;
+}
+
+
+.header .icons {
+  display: none;
+}
+
+#grey {
+  color: grey;
+  font-weight:lighter;
+}
+
+.nav {
+  list-style: none;
+  display: inline-block;
+  height: 40px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+
+.nav li {
+  padding:0 16px;
+}
+
+
+.contentbox {
+  height: 560px;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+}
+
+
+.contentbox img {
+  width: 60%;
+  margin: 32px 24px;
+  display: flex;
+  display: inline-block;
+}
+
+
+.contentbox .learn {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  font-family: helvetica;
+  justify-content:center;
+}
+
+
+.contentbox .learn h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+
+.contentbox .learn h2 {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+
+.contentbox .learn p {
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+
+
+.second-contentbox {
+  height: 700px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  font-family: helvetica;
+  color: grey
+}
+
+
+.second-contentbox .hurt h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.second-contentbox .hurt h2{
+  line-height: 1.2;
+  font-weight: lighter;
+  letter-spacing: 1;
+  margin-bottom: 30px;
+}
+
+.second-contentbox .hurt p {
+padding-bottom: 32px;
+}
+
+.second-contentbox .hurt {
+  margin: 32px 24px;
+  text-align: left;
+  width: 60%;
+}
+
+.second-contentbox .hurt img {
+  width: 100%;
+  height: auto;
+}
+
+.second-contentbox .three-pictures {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  text-align: left;
+  padding-top:16px;
+  border: 1px solid grey;
+}
+
+.second-contentbox .three-pictures .mobile {
+  display: none;
+}
+
+
+.second-contentbox .three-pictures .picture h2 {
+  margin-top: 70px;
+  font-size: 1.5rem;
+}
+
+
+.second-contentbox .three-pictures .picture p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+
+.second-contentbox .three-pictures .picture a {
+  text-decoration: none;
+}
+
+
+.three-pictures img{
+  width: 35%;
+  height: auto;
+  float: left;
+  padding: 16px;
+}
+
+
+#date {
+  border-bottom: 0.5px solid grey;
+}
+
+#guest {
+  background-color: lightgrey;
+}
+
+.learning {
+  height: 900px;
+  background-color: lightgrey;
+  width: 100%;
+  text-align: center;
+  font-family: helvetica;
+  color: black;
+}
+
+.learning h1 {
+  padding: 32px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.learning h2 {
+  margin: 16px;
+  font-weight: bold;
+}
+
+.learning h3 {
+  margin: 8px 16px;
+  font-weight: lighter;
+}
+
+.learning p {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.learning .boxesone {
+  display: flex;
+  flex-direction: row;
+  margin: 0 56px 32px 56px;
+  text-align: left;
+}
+
+.learning .boxesone .box {
+  margin: 0 16px;
+  background-color: white;
+  width: 32%;
+}
+
+.learning img {
+  width: 100%;
+  height: auto;
+}
+
+.learning .boxestwo {
+  display: flex;
+  flex-direction: row;
+  margin: 0 56px 32px 56px;
+}
+
+.learning .boxestwo .box {
+  margin: 0 16px;
+  background-color: white;
+  width: 32%;
+}
+
+
+.thesis {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  color: black;
+  font-family: helvetica;
+}
+
+.text {
+width: 100%;
+height: 90px;
+display: block;
+text-align: center;
+}
+
+.text h1 {
+  padding: 32px;
+  font-size: 1.5rem;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.thesis {
+  height: 565px;
+  background-color: white;
+}
+
+.thesis .videobox {
+  display: flex;
+  flex-direction: column;
+  height: 590px;
+  width: 60%;
+  background-color: white;
+  float: left;
+}
+
+.thesis .videobox video {
+  margin: 0 24px 24px 24px;
+  width: 94%;
+  height: auto;
+}
+
+.thesis .videobox .video-text {
+  width: 94%;
+  margin-bottom: 32px;
+}
+
+.thesis .videobox .video-text h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+
+.thesis .videobox .video-text p {
+  margin-left: 24px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+
+.thesis .two-pics {
+  width: 40%;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.thesis .two-pics img {
+  width: 35%;
+  height: auto;
+  float: left;
+  margin: 16px;
+}
+
+.thesis .two-pics .fisma {
+background-color: lightgrey;
+}
+
+.thesis .two-pics h2 {
+  margin-right: 100px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.thesis .two-pics p {
+  margin-right: 100px;
+  line-height: 1.5;
+}
+
+
+.copyright {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid grey;
+  background-color: white;
+  font-family: helvetica;
+  display: flex;
+  flex-direction: row;
+}
+
+.copyright p {
+  display: flex;
+  display: inline-block;
+  display: row;
+  float: left;
+  margin: 16px 600px 50px 24px;
+}
+
+.copyright ul {
+  display: inline-block;
+  display: flex;
+  float: left;
+}
+
+.copyright ul li {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding-top: 16px;
+  padding-right: 24px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+  .header .logo p {
+    display: none;
+}
+
+.header .nav li {
+  display: none;
+}
+
+.header .logo img{
+  display: none;
+}
+
+.header {
+  background-color: white;
+  height: 64px;
+  width: 100%;
+}
+
+.header .icons {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.header .icons img {
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+
+
+.contentbox {
+  width: 100%;
+  display: block;
+}
+
+.contentbox img {
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  justify-content: center;
+  margin: 0;
+}
+
+.contentbox .learn {
+  width: 100%;
+}
+
+.contentbox .learn h1, h2 {
+  margin-left: 16px;
+}
+
+.contentbox .learn p {
+  text-align: center;
+  padding: 14px;
+  margin-bottom: 32px;
+}
+
+.second-contentbox {
+  background-color: white;
+  border: 0.6px solid lightgrey;
+}
+
+.second-contentbox .hurt{
+  display: none;
+  margin-bottom:
+}
+
+.second-contentbox .three-pictures {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+}
+
+#guest {
+  background-color: white;
+}
+
+#date {
+  border: none;
+}
+
+#campus {
+  border: none;
+}
+
+.learning {
+  background-color: white;
+}
+
+.three-pictures .picture .desktop {
+  display: none;
+}
+
+.three-pictures .picture .mobile {
+  width: 93%;
+  display: flex;
+  display: column;
+  justify-content: center;
+}
+
+.second-contentbox .three-pictures .picture p {
+  margin: 8px 16px;
+  line-height: 1.5;
+}
+
+.three-pictures .picture a {
+  margin-left: 16px;
+  padding-bottom: 64px;
+}
+
+.learning .text {
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.learning{
+  margin-top: 230px;
+  height: auto;
+}
+
+.learning .boxesone .box img {
+  display: none;
+}
+
+.learning .boxesone .box h3 {
+  display: none;
+}
+
+.learning .boxesone .box p {
+  display: none;
+}
+
+.learning .boxestwo .box img {
+  display: none;
+}
+
+.learning .boxestwo .box h3 {
+  display: none;
+}
+
+.learning .boxestwo .box p {
+  display: none;
+}
+
+.learning .boxesone {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 0;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.learning .boxesone .box {
+  margin-top: 0;
+  margin-bottom: 8px;
+  margin-left: 0;
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.learning .boxestwo {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 0;
+  background-color: white;
+}
+
+.learning .boxestwo .box {
+  margin-bottom: 8px;
+  background-color: lightgrey;
+  width: 100%;
+  margin-left: 0;
+}
+
+.learning .boxesone {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 0;
+  background-color: white;
+}
+
+.thesis .two-pics {
+  display: none;
+}
+
+.thesis .fisma {
+  display: none;
+}
+
+.Thesis .now {
+  display: none;
+}
+
+.thesis .videobox {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.thesis {
+  height: auto;
+}
+
+.text h1 {
+  border-top: 0.5px solid grey;
+}
+
+.thesis .videobox video {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.thesis .video-text {
+  display: none;
+}
+
+.thesis .two-pics {
+  display: none;
+}
+
+.copyright p {
+  margin-right: 0px;
+}
+
+.copyright ul li {
+  display: none;
+}
+
+}
